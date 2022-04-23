@@ -1,6 +1,6 @@
 /* eslint-disable react/jsx-key */
 import { FC, useEffect } from 'react';
-import { useSend } from '../Providers';
+import { useSend } from '../Provider';
 
 function useStart() {
   const send = useSend();

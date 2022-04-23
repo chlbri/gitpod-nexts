@@ -1,7 +1,7 @@
 import { useSelector } from '@xstate/react';
 import { useContext as useContextReact } from 'react';
 import { Subscribable } from 'xstate';
-import { Interpreter } from '../../machines/main';
+import { Interpreter } from '../machines/main';
 import { MainContext } from './context';
 
 export function useContext() {
